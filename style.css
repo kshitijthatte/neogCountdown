@@ -9,11 +9,15 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #052634;
+  color: #fff;
+}
+
+.logo {
+  margin: 2rem 0 0 2rem;
 }
 
 .coming-soon {
-  min-height: 100vh;
-  color: #49a0eb;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -24,14 +28,14 @@ body {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+  color: #49a0eb;
 }
 
 .heading {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   text-align: center;
-  padding: 3rem;
-  color: #fff;
+  padding: 2.5rem;
 }
 
 .heading-link {
@@ -41,7 +45,6 @@ body {
 
 .heading-link:hover {
   color: #285780;
-  text-shadow: none;
 }
 
 .day,
@@ -51,7 +54,22 @@ body {
   font-size: 2rem;
 }
 
-.image {
+.center-image {
   height: 50vh;
   width: 40vh;
+}
+
+.footer p {
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.footer a {
+  color: #49a0eb;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #285780;
 }
